@@ -1,0 +1,20 @@
+python main.py \
+    --model_path  /your/path/to/model \
+    --prune_method OBS-Diff \
+    --seed 24432 \
+    --sparsity_ratio 0.5 \
+    --sparsity_type 2:4 \
+    --timestep_weight_strategy log_decrease \
+    --timestep_min_weight 0.8 \
+    --timestep_max_weight 1.2 \
+    --dataset gcc3m \
+    --num_samples 100 \
+    --num_inference_steps 25 \
+    --batch_size 4 \
+    --height 512 \
+    --width 512 \
+    --guidance_scale 7.0 \
+    --num_pruned_groups 4 \
+    --demo_evaluate \
+    --demo_dir OBS_Diff_Semi_test.png \
+    --save_model /your/path/to/save/model

@@ -1,0 +1,8 @@
+datasets==3.5.1
+diffusers==0.33.1
+matplotlib==3.10.6
+numpy==2.3.3
+pandas==2.3.3
+torch==2.7.0
+torch_pruning==1.6.0
+transformers==4.51.3
