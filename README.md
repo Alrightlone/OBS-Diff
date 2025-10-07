@@ -15,7 +15,7 @@
 </div>
 
 <div align="center">
-  <table>
+  <table style="border: none;">
     <tr>
       <td align="center" style="border: none;"><img src="./figures/westlake.png" alt="Westlake University" height="100"></td>
       <td align="center" style="border: none;"><img src="./figures/zju-logo.svg" alt="Zhejiang University" height="100"></td>
@@ -24,7 +24,6 @@
   </table>
 </div>
 
-<br>
 
 <div align="left">
   <img src="./figures/teaser.jpg" alt="OBS-Diff" width="100%">
