@@ -1,6 +1,6 @@
 <div align="center">
 
-# OBS-Diff: Accurate Pruning For Diffusion Models in One-Shot
+# OBS-Diff:<br> Accurate Pruning For Diffusion Models in One-Shot
 
 **[Junhan Zhu](https://alrightlone.github.io/)**<sup>1</sup>, 
 **[Hesong Wang](https://viridisgreen.github.io/)**<sup>1,2</sup>, 
