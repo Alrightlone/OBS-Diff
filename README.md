@@ -140,7 +140,7 @@ We thank the following projects for their contributions to the development of OB
 If you find this work useful, please consider citing:
 
 ```bibtex
-@misc{zhu2025obsdiffaccuratepruningdiffusion,
+@article{zhu2025obsdiffaccuratepruningdiffusion,
       title={OBS-Diff: Accurate Pruning For Diffusion Models in One-Shot}, 
       author={Junhan Zhu and Hesong Wang and Mingluo Su and Zefang Wang and Huan Wang},
       year={2025},
