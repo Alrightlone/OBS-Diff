@@ -2,6 +2,15 @@
 
 # OBS-Diff:<br> Accurate Pruning For Diffusion Models in One-Shot
 
+<div align="center">
+<a href="https://arxiv.org/abs/2510.06751">
+<img alt="Paper" src="https://img.shields.io/badge/Paper-Arxiv%20Link-light">
+<a href="https://alrightlone.github.io/OBS-Diff-Webpage/">
+<img alt="Webpage" src="https://img.shields.io/badge/Webpage-blue">
+<a href="https://opensource.org/licenses/Apache-2.0">
+<img alt="Code License" src="https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg">
+</a>
+
 **[Junhan Zhu](https://alrightlone.github.io/)**<sup>1</sup>, 
 **[Hesong Wang](https://viridisgreen.github.io/)**<sup>1,2</sup>, 
 **[Mingluo Su](https://github.com/sunshine-0903)**<sup>1</sup>, 
@@ -27,7 +36,7 @@
 
 
 # News!
-[2025-10-08] We have released the core code and paper for OBS-Diff!
+[2025-10-09] We have released the core code and paper for OBS-Diff!
 
 # Framework
 <div align="left">
@@ -132,5 +141,13 @@ We thank the following projects for their contributions to the development of OB
 If you find this work useful, please consider citing:
 
 ```bibtex
-Coming soon!
+@misc{zhu2025obsdiffaccuratepruningdiffusion,
+      title={OBS-Diff: Accurate Pruning For Diffusion Models in One-Shot}, 
+      author={Junhan Zhu and Hesong Wang and Mingluo Su and Zefang Wang and Huan Wang},
+      year={2025},
+      eprint={2510.06751},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.06751}, 
+}
 ```
