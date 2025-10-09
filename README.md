@@ -2,7 +2,6 @@
 
 # OBS-Diff:<br> Accurate Pruning For Diffusion Models in One-Shot
 
-<div align="center">
 <a href="https://arxiv.org/abs/2510.06751">
 <img alt="Paper" src="https://img.shields.io/badge/Paper-Arxiv%20Link-light">
 <a href="https://alrightlone.github.io/OBS-Diff-Webpage/">
