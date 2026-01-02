@@ -49,6 +49,7 @@ Specifically,
  3. Furthermore, a computationally efficient group-wise sequential pruning strategy is proposed to amortize the expensive calibration process. 
  
  Extensive experiments show that OBS-Diff achieves state-of-the-art one-shot pruning for diffusion models, delivering inference acceleration with minimal degradation in visual quality.
+
 # Framework
 <div align="left">
   <img src="./figures/framework.jpg"  width="100%">
@@ -56,6 +57,7 @@ Specifically,
   <em>Illustration of the proposed <i>OBS-Diff</i> framework applied to the MMDiT architecture. Target modules are first partitioned into a predefined number of <i>module packages</i> and processed sequentially. For each package, hooks capture layer activations during a forward pass with a calibration dataset. This data, combined with weights from a dedicated timestep weighting scheme, is used to construct Hessian matrices. These matrices guide the Optimal Brain Surgeon (OBS) algorithm to simultaneously prune all layers within the current package before proceeding to the next.</em>
 </div>
 <br>
+
 # Some Quantitative Results
 <div align="left">
   <img src="./figures/main_un.png"  width="100%">
@@ -70,7 +72,13 @@ Specifically,
 </div>
 <br>
 <div align="left">
-  <img src="./figures/structured.png"  width="100%">
+  <img src="https://alrightlone.github.io/OBS-Diff-Webpage/static/images/structure.png"  width="100%">
+  <br>
+  <em> Performance of structured pruning on the SDXL (U-Net) model across various sparsity levels. Comparison includes the L1-norm baseline, EcoDiff, and our proposed OBS-Diff. The TFLOPs metric represents the theoretical computational cost for a single forward pass of the entire UNet. For each sparsity group, the best result per metric is highlighted in <b>bold.</b></em>
+</div>
+<br>
+<div align="left">
+  <img src="https://alrightlone.github.io/OBS-Diff-Webpage/static/images/structured2.png"  width="100%">
   <br>
   <em> Performance of structured pruning on the Stable Diffusion 3.5-Large model across various sparsity levels. The first and last transformer blocks were excluded from the pruning process. The TFLOPs metric represents the theoretical computational cost for a single forward pass of the entire transformer. For each sparsity group, the best result per metric is highlighted in <b>bold</b>.</em>
 </div>
