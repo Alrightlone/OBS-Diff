@@ -2,6 +2,8 @@
 
 # OBS-Diff:<br> Accurate Pruning For Diffusion Models in One-Shot
 
+<h3>🎉 Accepted by ICLR 2026</h3>
+
 <a href="https://arxiv.org/abs/2510.06751">
 <img alt="Paper" src="https://img.shields.io/badge/Paper-Arxiv%20Link-light">
 <a href="https://alrightlone.github.io/OBS-Diff-Webpage/">
@@ -31,7 +33,7 @@
 
 
 ## 📰 News
-
+* **[2026-01-26]** 🎉 **Accepted by ICLR 2026!** We are thrilled to announce that OBS-Diff has been accepted to **ICLR 2026**! Let's talk about sparsity and efficiency in Brazil! 🇧🇷 
 * **[2026-01-02]** 🤗 **Model Zoo Released!** We are excited to provide the pruned weights for [SDXL (10%~30%)](https://huggingface.co/Alrightlone/OBS-Diff-SDXL) and [SD3.5-Large (15%~30%)](https://huggingface.co/Alrightlone/OBS-Diff-SD3.5-Large)! 
 
   These models are achieved in a **totally training-free** and **one-shot** manner. 
