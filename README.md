@@ -33,7 +33,7 @@
 
 
 ## 📰 News
-* **[2026-01-26]** 🎉 **Accepted by ICLR 2026!** We are thrilled to announce that OBS-Diff has been accepted to **ICLR 2026**! Let's talk about sparsity and efficiency in Brazil! 🇧🇷 
+* **[2026-01-26]** 🎉 **Accepted by ICLR 2026!** Let's talk about sparsity and efficiency in Brazil! 🇧🇷 
 * **[2026-01-02]** 🤗 **Model Zoo Released!** We are excited to provide the pruned weights for [SDXL (10%~30%)](https://huggingface.co/Alrightlone/OBS-Diff-SDXL) and [SD3.5-Large (15%~30%)](https://huggingface.co/Alrightlone/OBS-Diff-SD3.5-Large)! 
 
   These models are achieved in a **totally training-free** and **one-shot** manner. 
@@ -121,8 +121,15 @@ pip install -r requirements.txt
 ```
 You need to install models (SD3-Medium) from [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-3-medium) and calibration dataset (GCC3M) from [Conceptual Caption 12M](https://ai.google.com/research/ConceptualCaptions/download).
 
+## 2. Data Preprocessing
+To prepare the calibration dataset, we utilize the GCC3M subset.
+ Run the following script to format the raw data for the OBS-Diff pruning pipeline:
+``` bash
+python data/gcc3m_preprocessing.py
+```
+This step ensures the data is correctly tokenized and organized to facilitate accurate Hessian information estimation during the pruning process.
 
-## 2. Usage
+## 3. Usage
 
 + Unstructured Pruning For SD3-Medium
 ```bash
