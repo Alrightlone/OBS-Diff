@@ -1,9 +1,9 @@
 <div align="center">
 <p align="center">
-  <img src="figures/obs-diff-logo.jpg" alt="OBS-Diff Logo" width="60%">
+  <img src="figures/obs-diff-logo.jpg" alt="OBS-Diff Logo" width="30%">
 </p>
 
-# OBS-Diff:<br> Accurate Pruning For Diffusion Models in One-Shot
+<h1>OBS-Diff:<br> Accurate Pruning For Diffusion Models in One-Shot</h1>
 <h3><font color="#8B0000">🎉 Accepted by ICLR 2026</font></h3>
 
 <a href="https://arxiv.org/abs/2510.06751">
