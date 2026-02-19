@@ -1,8 +1,10 @@
 <div align="center">
+<p align="center">
+  <img src="figures/obs-diff-logo.jpg" alt="OBS-Diff Logo" width="60%">
+</p>
 
 # OBS-Diff:<br> Accurate Pruning For Diffusion Models in One-Shot
-
-<h3>🎉 Accepted by ICLR 2026</h3>
+<h3><font color="#8B0000">🎉 Accepted by ICLR 2026</font></h3>
 
 <a href="https://arxiv.org/abs/2510.06751">
 <img alt="Paper" src="https://img.shields.io/badge/Paper-Arxiv%20Link-light">
@@ -11,6 +13,8 @@
 <a href="https://opensource.org/licenses/Apache-2.0">
 <img alt="Code License" src="https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg">
 </a>
+
+![ICLR 2026](https://img.shields.io/badge/Accepted_by-ICLR_2026-8B0000)
 
 **[Junhan Zhu](https://alrightlone.github.io/)**<sup>1</sup>, **[Hesong Wang](https://viridisgreen.github.io/)**<sup>1,2</sup>, **[Mingluo Su](https://github.com/sunshine-0903)**<sup>1</sup>, **[Zefang Wang](https://github.com/aden9460)**<sup>1,2</sup>, **[Huan Wang](https://huanwang.tech/)**<sup>1*</sup>
 
