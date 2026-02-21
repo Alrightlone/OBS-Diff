@@ -33,19 +33,23 @@
 <br>
 
 
+
+
+
+## 📰 News
+* **[2026-01-26]** 🎉 **Accepted by ICLR 2026!** Let's talk about sparsity and efficiency in Brazil! 🇧🇷 
+
 <div align="left">
   <img src="./figures/obs-diff-poster-v1.png"  width="100%">
   <br>
 </div>
 
-
-## 📰 News
-* **[2026-01-26]** 🎉 **Accepted by ICLR 2026!** Let's talk about sparsity and efficiency in Brazil! 🇧🇷 
 * **[2026-01-02]** 🤗 **Model Zoo Released!** We are excited to provide the pruned weights for [SDXL (10%~30%)](https://huggingface.co/Alrightlone/OBS-Diff-SDXL) and [SD3.5-Large (15%~30%)](https://huggingface.co/Alrightlone/OBS-Diff-SD3.5-Large)! 
 
   These models are achieved in a **totally training-free** and **one-shot** manner. 
 
 * **[2025-10-09]** 🔥 **Paper & Code Available!** The official implementation and paper for **OBS-Diff** are released.
+
 
 # Introduction
 Large-scale text-to-image diffusion models, while powerful, suffer from prohibitive computational cost. Existing one-shot network pruning methods can hardly be directly applied to them due to the iterative denoising nature of diffusion models. To bridge the gap, this paper presents *OBS-Diff*, a novel one-shot pruning framework that enables accurate and training-free compression of large-scale text-to-image diffusion models. 
