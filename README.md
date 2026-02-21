@@ -33,7 +33,10 @@
 <br>
 
 
-
+<div align="left">
+  <img src="./figures/obs-diff-poster-v1.png"  width="100%">
+  <br>
+</div>
 
 
 ## 📰 News
